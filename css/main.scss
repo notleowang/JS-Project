@@ -1,0 +1,46 @@
+:root {
+    --background-color: rgb(33, 87, 49);
+    --orange-font-color: #FA9039;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    // font-weights: 300;400;500;700
+    color: white;
+    background-color: var(--background-color);
+}
+
+.navbar {
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+}
+
+.navbar h1 {
+    font-weight: 700;
+    color: var(--background-color);
+    padding: 20px;
+}
+
+.container {
+    margin: 50px 20px;
+}
+
+.teams-container {
+    margin: 50px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.options-container {
+    text-align: center;
+}
