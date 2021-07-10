@@ -1,3 +1,3 @@
 # JS-Project
 
-just learning some js
+expanding my js knowledge and challenging myself to create an interactive thing
